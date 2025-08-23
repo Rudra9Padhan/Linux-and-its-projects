@@ -1,0 +1,47 @@
+# Linux Networking Commands
+
+1.ifconfig
+  Display network interface information. 
+  > ifconfig
+2.ip
+  Show/mainpulate routing, devices, policy routing, and tunnels.
+  >ip address shov
+3.ping
+  Sending ICMP ECHO_REQUEST TO network hosta
+  >ping google.com
+4.traceroute
+  Print the route packets trace to network host.
+  >traceroute google.com
+5.netstat
+  Print network connection, routing table, interface statistics, masquerade connections, and multicast membership.
+  >netstat -an
+6.ss
+  -Display socket statistics.
+  >ss -tulpn
+7.hostname
+  -Show or set the system's host name.
+  >hostname
+8.route
+  Display or manipulate the IP routing table.
+  >route -n
+9.dig
+  DNS lookup utility.
+  >dig google.com
+10.nslookup
+  Query internet name servers interactively.
+  >nslookup google.com
+11.route 
+  Mainpulate routing tables.
+  >route add default w 192.168.1.1
+12.iptables
+  Administration tool for ipv4 packet filtering and NAT.
+  >iptables-L
+13.tcpdump
+  Dump traffic on a networks.
+  tcpdump -i 
+14.sshd
+  -openSSH daemon.
+  >service sshd restart
+15.telnet
+  User interface to theTELNET protocol.
+  telnet google.com 80
