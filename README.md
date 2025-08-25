@@ -13,3 +13,4 @@ Mastering the basic Linux navigation commands such as cd, pwd, ls and tree enabl
 8. To print path to your home directory > echo ~ 
 9. To show the home directory > ls ~
 10. To clear the screen > clear
+11. To exit > exit
