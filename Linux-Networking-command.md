@@ -12,6 +12,7 @@ ip route → Display or set routing table.
 hostname → Show or set system hostname.
 
 hostname -I → Display all assigned IP addresses.
+
 🔹 Connectivity Testing
 
 ping <host> → Test connectivity to a host.
@@ -81,3 +82,29 @@ route -n → Show routing table (deprecated, use ip route).
 iwconfig → Configure Wi-Fi interfaces.
 
 nmcli → Control NetworkManager (modern tool for connections).
+
+
+
+🔹 Basic Network Information
+ip addr
+
+
+👉 Shows IP addresses of all network interfaces. Example output:
+
+2: eth0: <BROADCAST,MULTICAST,UP,LOWER_UP> ...
+    inet 192.168.1.10/24 brd 192.168.1.255 scope global eth0
+
+ip route
+
+
+👉 Displays the routing table:
+
+default via 192.168.1.1 dev eth0
+192.168.1.0/24 dev eth0 proto kernel scope link src 192.168.1.10
+
+hostname -I
+
+
+👉 Shows the IP address of your machine:
+
+192.168.1.10
