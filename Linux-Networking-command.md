@@ -83,7 +83,7 @@ iwconfig → Configure Wi-Fi interfaces.
 
 nmcli → Control NetworkManager (modern tool for connections).
 
-
+------------------------------------------------------------------------------------------------------
 
 🔹 Basic Network Information
 ip addr
@@ -108,3 +108,27 @@ hostname -I
 👉 Shows the IP address of your machine:
 
 192.168.1.10
+
+
+.........................................................................................................
+🔹 Connectivity Testing
+ping google.com
+
+
+👉 Test connectivity to Google’s server:
+
+64 bytes from 142.250.183.110: icmp_seq=1 ttl=118 time=32.1 ms
+
+traceroute google.com
+
+
+👉 Shows the hops your packets take to reach Google.
+
+curl -I https://openai.com
+
+
+👉 Fetch only HTTP headers:
+
+HTTP/2 200
+date: Sun, 25 Aug 2025 17:00:00 GMT
+content-type: text/html
