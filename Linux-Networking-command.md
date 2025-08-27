@@ -69,6 +69,7 @@ firewalld-cmd --list-all → Show firewall settings (RHEL/CentOS).
 
 nmap <host> → Scan ports/services on a host.
 
+
 🔹 Advanced Networking
 
 ethtool eth0 → Show Ethernet device settings.
