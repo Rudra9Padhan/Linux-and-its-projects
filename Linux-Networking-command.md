@@ -110,7 +110,8 @@ hostname -I
 192.168.1.10
 
 
-.........................................................................................................
+----
+
 🔹 Connectivity Testing
 ping google.com
 
@@ -132,3 +133,105 @@ curl -I https://openai.com
 HTTP/2 200
 date: Sun, 25 Aug 2025 17:00:00 GMT
 content-type: text/html
+
+-----
+
+🔹 DNS Tools
+dig openai.com
+
+
+👉 Query DNS records:
+
+;; ANSWER SECTION:
+openai.com.    300 IN A 104.18.12.123
+
+host openai.com
+
+
+👉 Quick DNS lookup:
+
+openai.com has address 104.18.12.123
+
+---------------
+
+🔹 Network Monitoring
+ss -tulnp
+
+
+👉 Show listening TCP/UDP ports and processes:
+
+Netid State  Local Address:Port   Process
+tcp   LISTEN 0.0.0.0:22           users:(("sshd",pid=1234,fd=3))
+
+tcpdump -i eth0 port 80
+
+
+👉 Capture HTTP packets on interface eth0.
+
+iftop -i eth0
+
+
+👉 Live bandwidth usage per connection:
+
+192.168.1.10 => 93.184.216.34  1.56Mb
+
+--------------------
+
+🔹 File Transfer & Remote Access
+scp file.txt user@192.168.1.20:/home/user/
+
+
+👉 Copy file.txt to remote host.
+
+rsync -avz /var/www/ user@192.168.1.20:/backup/www/
+
+
+👉 Sync local /var/www/ to remote /backup/www/.
+
+ssh user@192.168.1.20
+
+
+👉 Login to remote server via SSH.
+
+-------------
+
+🔹 Firewall & Security
+ufw status
+
+
+👉 Shows allowed ports:
+
+22/tcp ALLOW Anywhere
+80/tcp ALLOW Anywhere
+
+nmap -p 22,80 192.168.1.20
+
+
+👉 Scan SSH and HTTP ports:
+
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+----------
+
+🔹 Advanced Networking
+ethtool eth0
+
+👉 Show interface details like speed, duplex, etc.
+
+arp -a
+
+
+👉 Show ARP cache:
+
+192.168.1.1   ether 00:1a:2b:3c:4d:5e   C eth0
+
+nmcli device status
+
+
+👉 Show connection status of all devices:
+
+DEVICE  TYPE      STATE      CONNECTION
+eth0    ethernet  connected  Wired connection 1
+wlan0   wifi      disconnected  --
