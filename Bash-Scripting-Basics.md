@@ -38,3 +38,32 @@ do
     echo "Looping ... number $i"
 done
 ````
+## 6. While Loop
+```bash
+#!/bin/bash
+count=1
+while [ $count -le 5 ]
+do
+    echo "Count is $count"
+    ((count++))
+done
+```
+## 7. Functions
+```bash
+#!/bin/bash
+greet() {
+    echo "Hello, $1!"
+}
+greet "Rudra"
+```
+## 8. Command Line Arguments
+```bash
+#!/bin/bash
+echo "Script Name: $0"
+echo "First Argument: $1"
+echo "Second Argument: $2"
+
+Run:
+
+./script.sh arg1 arg2
+```
