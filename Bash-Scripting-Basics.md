@@ -67,3 +67,33 @@ Run:
 
 ./script.sh arg1 arg2
 ```
+## 9. File Operations
+```bash
+#!/bin/bash
+file="test.txt"
+
+if [ -f "$file" ]; then
+    echo "$file exists."
+else
+    echo "$file not found, creating it."
+    echo "Hello Bash!" > $file
+fi
+```
+## 10. Networking Example (Ping Test)
+```bash
+#!/bin/bash
+echo -n "Enter host to ping: "
+read host
+
+ping -c 3 $host > /dev/null
+
+if [ $? -eq 0 ]; then
+    echo "$host is reachable"
+else
+    echo "$host is not reachable"
+fi
+```
+### Save these as .sh files and run them with:
+```bash
+chmod +x script.sh
+./script.sh
