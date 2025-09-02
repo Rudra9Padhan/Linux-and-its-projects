@@ -36,3 +36,12 @@ Mastering the basic Linux navigation commands such as cd, pwd, ls and tree enabl
 10. To exit
     ```
     > exit
+--------------------
+## 🐧 Linux Network Troubleshooter
+---
+1. Show system hostname & IP.
+2. Test internet connectivity.
+3. Ping a user-given host.
+4. Show open TCP/UDP ports.
+5. Display routing table.
+6. Show top bandwidth usage (if iftop or nload is installed).
