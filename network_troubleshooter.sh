@@ -43,5 +43,4 @@ ip route
 # 6. Optional: Bandwidth Monitoring
 echo -e "\n (Optional) Run iftop or nload for live bandwidth monitoring."
 echo "   Example: sudo iftop -i eth0 OR nload"
-
 echo -e "\n Network Troubleshooting Completed!"
