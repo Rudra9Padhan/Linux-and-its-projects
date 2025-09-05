@@ -39,7 +39,7 @@ Mastering the basic Linux navigation commands such as cd, pwd, ls and tree enabl
     > exit
 --------------------
 ## 🐧 Linux Network Troubleshooter
---
+---
 1. Show system hostname & IP.
 2. Test internet connectivity.
 3. Ping a user-given host.
