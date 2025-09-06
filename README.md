@@ -1,4 +1,4 @@
-# Linux-and-its-projects
+## Linux-and-its-projects
 
 # Navigation Basics of Linux
 
