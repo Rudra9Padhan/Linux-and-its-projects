@@ -19,22 +19,22 @@ Mastering the basic Linux navigation commands such as cd, pwd, ls and tree enabl
 5. To find the user name
    ```
    > whoami
-6. To find total process by users
+6. To find total process by users.
    ```
    > id
-7. To finding present working directory
+7. To finding present working directory.
    ```
    > pwd
-8. To print path to your home directory
+8. To print path to your home directory.
     ```
     > echo ~ 
-9. To show the home directory
+9. To show the home directory.
     ```
     > ls ~
-10. To clear the screen
+10. To clear the screen.
     ```
     > clear
-10. To exit
+10. To exit.
     ```
     > exit
 --------------------
