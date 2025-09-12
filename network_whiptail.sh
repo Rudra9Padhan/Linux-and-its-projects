@@ -5,7 +5,7 @@
 # =========================================
 
 while true; do
-    CHOICE=$(whiptail --title "🐧 Linux Network Troubleshooter" --menu "Choose an option:" 20 70 10 \
+    CHOICE=$(whiptail --title " Linux Network Troubleshooter" --menu "Choose an option:" 20 70 10 \
     "1" "Show Hostname & IP" \
     "2" "Check Internet Connectivity" \
     "3" "Ping a Host" \
