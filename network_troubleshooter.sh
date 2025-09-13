@@ -1,7 +1,7 @@
 #!/bin/bash
 # =========================================
 # Network Troubleshooter Script
-# Author: Rudra
+# Author: Rudra9Padhan
 # =========================================
 
 echo "======================================"
