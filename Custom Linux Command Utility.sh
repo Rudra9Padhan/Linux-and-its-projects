@@ -4,7 +4,7 @@
 echo "Listing files in $(pwd):"
 for file in *; do
     echo "$file"
-done
+#done
 
 -------------------------------
 #!/bin/bash
@@ -23,4 +23,4 @@ for file in *; do
     else
         echo "$file"
     fi
-done
+#done
