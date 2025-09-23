@@ -25,7 +25,7 @@ curl <url> → Test HTTP/HTTPS connectivity.
 
 wget <url> → Download files over HTTP/FTP.
 
-🔹 DNS Tools
+🔹 DNS Tools :
 
 nslookup <domain> → Query DNS records (simple).
 
@@ -33,7 +33,7 @@ dig <domain> → Detailed DNS lookup.
 
 host <domain> → Resolve a domain name to an IP.
 
-🔹 Network Monitoring
+🔹 Network Monitoring :
 
 netstat -tulnp → Show active connections, listening ports, and processes (deprecated).
 
@@ -49,7 +49,7 @@ iftop → Monitor bandwidth usage per connection.
 
 nload → Real-time incoming/outgoing traffic monitor.
 
-🔹 File Transfer & Remote Access
+🔹 File Transfer & Remote Access :
 
 scp file user@host:/path → Securely copy files between systems.
 
@@ -59,7 +59,7 @@ sftp user@host → Secure FTP.
 
 ssh user@host → Remote login to another system.
 
-🔹 Firewall & Security
+🔹 Firewall & Security:
 
 ufw status → Check firewall status (Ubuntu/Debian).
 
@@ -70,7 +70,7 @@ firewalld-cmd --list-all → Show firewall settings (RHEL/CentOS).
 nmap <host> → Scan ports/services on a host.
 
 
-🔹 Advanced Networking
+🔹 Advanced Networking:
 
 ethtool eth0 → Show Ethernet device settings.
 
