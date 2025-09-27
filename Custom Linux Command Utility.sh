@@ -10,9 +10,9 @@ for file in *; do
 #!/bin/bash
 
 # Colors
-DIR="\e[34m"   # Blue for directories
-EXE="\e[32m"   # Green for executables
-REG="\e[0m"    # Reset color
+DIR="\e[34m"  # Blue for directories
+EXE="\e[32m"  # Green for executables
+REG="\e[0m"   # Reset color
 
 echo "Custom ls output from: $(pwd)"
 for file in *; do
