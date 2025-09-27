@@ -5,7 +5,7 @@
 # =========================================
 
 echo "======================================"
-echo "       Linux Network Troubleshooter"
+echo " Linux Network Troubleshooter"
 echo "======================================"
 
 # 1. Show Hostname & IP
