@@ -93,7 +93,7 @@ else
     echo "$host is not reachable"
 fi
 ```
-### Save these as .sh files and run them with :
+## 10. Save these as .sh files and run them with :
 ```bash
 chmod +x script.sh
 ./script.sh
